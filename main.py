@@ -9,7 +9,7 @@ Baixando um vídeo privado do Vimeo que está incorporado a uma página da web, 
 from vimeo_downloader import Vimeo
 
 # Crie uma instância do Vimeo com a URL do vídeo e a URL onde ele está incorporado
-link_videos = Vimeo('link_do_video_no_vimeo', embedded_on='URL_DA_PÁGINA_ONDE_O_VÍDEO_ESTÁ_INCORPORADO')
+link_videos = Vimeo('https://vimeo.com/869627766', embedded_on='https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=9959&id=356473')
 
 # Obtenha os streams disponíveis para o vídeo
 quality_video = link_videos.streams
@@ -19,7 +19,7 @@ print(quality_video)
 best_stream = quality_video[-1]
 
 # Baixe o vídeo
-best_stream.download(download_directory='DirectoryName', filename='Dando_nome_ao_vídeo')
+best_stream.download(download_directory='DirectoryName', filename='Dando_nome_ao_vídeo_2')
 
 
 '''
