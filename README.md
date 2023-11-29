@@ -1,10 +1,10 @@
 # Scrappy-Fiap-On
 
 ## Descrição / Description 
-Este scraper foi desenvolvido para permitir o download das vídeo-aulas do portal do aluno da FIAP.
+Este scraper foi desenvolvido para permitir o download das vídeo-aulas do portal do aluno da FIAP. / 
 This scraper was developed to enable the download of video lectures from the FIAP student portal.
 
-## Tecnologias Utilizadas / 
+## Tecnologias Utilizadas / Technologies Used
 - Python
 - Selenium
 - Vimeo_Downloader
@@ -22,5 +22,4 @@ https://github.com/adrianoals/Scrappy-Fiap-On/assets/102778237/94e83e62-9fe1-439
 6. Para salvar todos os links das músicas que foram armazenados no MongoDB, execute o arquivo saving_files.py com o comando python src/saving_files.py.
 
 ## Contribuindo / Contributing
-Contribuições para este projeto são bem-vindas. Por favor, abra uma issue para discutir as alterações propostas antes de fazer um pull request. Qualquer dúvida entrar em contato 
-Contributions to this project are welcome. Please open an issue to discuss proposed changes before submitting a pull request. If you have any questions, feel free to contact me. 
+Contribuições para este projeto são bem-vindas. Por favor, abra uma issue para discutir as alterações propostas antes de fazer um pull request. Qualquer dúvida entrar em contato / Contributions to this project are welcome. Please open an issue to discuss proposed changes before submitting a pull request. If you have any questions, feel free to contact me. 
